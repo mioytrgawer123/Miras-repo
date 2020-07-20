@@ -1,0 +1,46 @@
+
+head {
+    top: 100px;
+}
+
+video {
+    align-content: right;
+}
+
+.Copyright {
+    align-content: center;
+}
+
+.footer {
+    vertical-align: bottom;
+    align-content: left;
+    text-align: center;
+    font-family: monospace;
+}
+
+body {
+    background-color: #DD7CAO;
+    font-family: 'Oranienbaum', serif;
+    display: block
+}
+
+nav {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; 
+  top: 5px 
+   
+  
+
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    
+    
+}
