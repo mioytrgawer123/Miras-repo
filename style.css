@@ -1,4 +1,4 @@
-/* Hjälp med "back to the top" knapp, centrera videon, Svart "outline" med ingeniting i mellan rosa och blåa, navigationbar blå där man är. Rgba (0, 0, 0, 0,)=transparent */
+
 
 head {
     top: 100px;
@@ -24,7 +24,6 @@ div.Video{
 
 #Picture1 {
     display: block;
-    display: flex;
     padding-top: 60px;
     align-content: right;
     background-color: black;
@@ -33,7 +32,6 @@ div.Video{
 
 #Picture2 {
     display: block;
-    display: flex;
     padding-top: 60px;
     align-content: right;
     background-color: black;
@@ -42,14 +40,17 @@ div.Video{
 
 #Picture3 {
     display: block;
-    display: flex;
     padding-top: 60px;
     align-content: right;
     background-color: black;
     padding-left: 30px;
+    padding-bottom: 100px;
 }
 
-Pictures {
+#Pictures {
+    flex-wrap: wrap
+    width: 100%;
+    display: flex;
     padding-top: 50px;
     background-color: black;
 }
@@ -59,11 +60,23 @@ footer,hover {
 }
 
 #Top {
-    
+    display: inline-block;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 24px;
 }
 
 a Top {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
     text-decoration: none;
+    font-size: 24px;
 
 }
 
@@ -84,7 +97,7 @@ Video {
     color: white;
     background-color: black;
     vertical-align: bottom;
-    align-content: left;
+    align-content: center;
     font-family: monospace;
 }
 
@@ -94,10 +107,12 @@ body {
 }
 
 nav {
+  display: flex;
   overflow: hidden;
   background-color: black;
   position: fixed; 
-  top: 5px 
+  justify-content: flex-start;
+  top: 8px;
    
   
 
@@ -114,5 +129,8 @@ nav a {
 
 nav a:hover {
     background-color: darkgrey;
+}
+
+#Pictures a:hover {
 }
 
