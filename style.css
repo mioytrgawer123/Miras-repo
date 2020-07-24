@@ -8,6 +8,18 @@ div {
     background-color: #FFCEC9;
 }
 
+div.Mirasfooter {
+    width: 50%;
+    background-color: black;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Home:active {
+    background-color: slateblue;
+}
+
 div.Video{
     background-color: #88D3EA;
     text-align:center;
@@ -22,42 +34,107 @@ div.Video{
     padding-top: 60px;
 }
 
+img {
+
+}
+
 #Picture1 {
+    color: white;
     display: block;
-    padding-top: 60px;
-    align-content: right;
     background-color: black;
     padding-left: 30px;
 }
 
+.Picture1:hover {
+    background-image: url(Bilder/Asska.jpeg)
+}
+
 #Picture2 {
+    color: white;
     display: block;
-    padding-top: 60px;
-    align-content: right;
     background-color: black;
     padding-left: 30px;  
 }
 
+
 #Picture3 {
+    color: white;
     display: block;
-    padding-top: 60px;
-    align-content: right;
     background-color: black;
-    padding-left: 30px;
-    padding-bottom: 100px;
+    padding-left:30px;
 }
 
+#Picture4 {
+    color: white;
+    display: block;
+    background-color: black;
+    padding-left:30px;    
+}
+
+#Picture5 {
+    display: block;
+    color: white;
+    background-color: black;
+    padding-left: 30px;        
+}
+
+#Picture6 {
+    display: block;
+    color: white;
+    background-color: black;
+    padding-left: 30px;        
+}
+
+#Picture7 {
+    display: block;
+    color: white;
+    background-color: black;
+    padding-left: 30px;        
+}
+
+#Picture8 {
+    display: block;
+    color: white;
+    background-color: black;
+    padding-left: 30px;        
+}
+
+#Picture9 {
+    display: block;
+    color: white;
+    background-color: black;
+    padding-left: 30px;            
+}
+
+#Picture10 {
+    display: block;
+    color: white;
+    background-color: black;
+    padding-left: 30px;  
+    padding-bottom: 30px;
+}
+   
 #Pictures {
-    flex-wrap: wrap
+    float: left;
+    object-fit: cover;
+    flex-wrap: wrap;
     width: 100%;
     display: flex;
-    padding-top: 50px;
+    padding-top: 60px;
     background-color: black;
 }
 
-footer,hover {
-    opacity: 0,7;
+.Familj {
+    color: white;
+    background-color: black;
 }
+
+.footerimage:hover {
+        opacity: 0.5;
+        filter: alpha(opacity=40);
+}
+
+
 
 #Top {
     display: inline-block;
@@ -69,12 +146,24 @@ footer,hover {
     font-size: 24px;
 }
 
-a Top {
+Mirasfooter {
+    align-items: right;
+    align-content: right;
+    text-align: right;
+}
+
+.Top:hover {
+    background-color: darkgray;
+}
+
+a.Top {
+    border-radius: 15px;
     display: inline-block;
     color: black;
     background-color: white;
     text-align: center;
     padding: 20px;
+    margin-left: 10px;
     text-decoration: none;
     font-size: 24px;
 
@@ -107,6 +196,9 @@ body {
 }
 
 nav {
+  border: 3px solid white;
+  outline-width: thick;
+  outline-color: white;
   display: flex;
   overflow: hidden;
   background-color: black;
@@ -119,6 +211,8 @@ nav {
 }
 
 nav a {
+    outline-width: thick;
+    outline-color: white;
     display: inline-block;
     color: white;
     text-align: center;
@@ -132,5 +226,10 @@ nav a:hover {
 }
 
 #Pictures a:hover {
+}
+
+h1.Familj {
+    padding: 0px;
+    margin: 0px;
 }
 
