@@ -1,10 +1,36 @@
 
 
+body, html {
+ height: 100%;
+}
+
+
+.hero-image {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Bilder/Hero%20image.jpg"); 
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.hero-text {
+  font-size: 
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 head {
     top: 100px;
 }
 
-div {
+#Rosa {
     background-color: #FFCEC9;
 }
 
@@ -31,7 +57,7 @@ div.Video{
 }
 
 #Title {
-    padding-top: 60px;
+    text-shadow: 5px;
 }
 
 img {
@@ -46,7 +72,7 @@ img {
 }
 
 .Picture1:hover {
-    background-image: url(Bilder/Asska.jpeg)
+    background-image:
 }
 
 #Picture2 {
@@ -70,6 +96,8 @@ img {
     background-color: black;
     padding-left:30px;    
 }
+
+
 
 #Picture5 {
     display: block;
@@ -232,4 +260,10 @@ h1.Familj {
     padding: 0px;
     margin: 0px;
 }
+
+.Title {
+    text-shadow: 4px 4px black;
+    font-size: 60px;
+}
+
 
