@@ -4,9 +4,7 @@ body, html {
  height: 100%;
 }
 
-
 .hero-image {
-
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/mirah/Downloads/Kjolar1.webp"); 
   height: 75%;
   background-position: center;
@@ -17,7 +15,7 @@ body, html {
 }
 
 .hero-text {
-  font-size: 
+  font-size: 60px;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -25,6 +23,7 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Oranienbaum', serif;
+  font
 }
 
 head {
@@ -33,11 +32,14 @@ head {
 
 #Grey {
     background-color: #d4c8c6;
+    text-align: left;
+    width:50%;
+    font-size: 30px;
 }
 
 div.Mirasfooter {
     width: 50%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -47,28 +49,15 @@ div.Mirasfooter {
     background-color: slateblue;
 }
 
-div.Video{
-    background-color: #88D3EA;
-    text-align:center;
-    width:100%;
-}
-
 #Vit {
     background-color: white;
 }
 
 
-.Familj {
-    color: white;
-    background-color: black;
-}
-
 .footerimage:hover {
         opacity: 0.5;
         filter: alpha(opacity=40);
 }
-
-
 
 #Top {
     display: inline-block;
@@ -103,21 +92,12 @@ a.Top {
     font-family:'Oranienbaum', serif;
 }
 
-#Color2 {
-    background-color: #88D3EA;
-}
-
-Video {
-    align-content: right;
-    text-align: center;
-}
-
 #Copyright {
     text-align: center;
 }
 
 .footer {
-    color: #000000;
+    color: #ffffff;
     background-color: rgb(255, 255, 255);
     vertical-align: bottom;
     align-content: center;
@@ -127,8 +107,18 @@ Video {
 body {
     font-family: 'Oranienbaum', serif;
     display: block;
-    text-align: left;
 }
+
+.Familj {
+    color: white;
+    background-color: black;
+}
+
+h1.Familj {
+    padding: 0px;
+    margin: 0px;
+}
+
 
 nav {
   border: 3px solid white;
@@ -140,9 +130,6 @@ nav {
   position: fixed; 
   justify-content: flex-start;
   top: 8px;
-   
-  
-
 }
 
 nav a {
@@ -160,17 +147,13 @@ nav a:hover {
     background-color: darkgrey;
 }
 
-#Pictures a:hover {
+
+h3 {
+    font-size: 40px;
 }
 
-h1.Familj {
-    padding: 0px;
-    margin: 0px;
+#h2 {
+    font-size: 50px;
+    left: 50%;
+    text-align: center;
 }
-
-.Title {
-    font-size: 60px;
-    font-family:'Oranienbaum', serif;
-}
-
-
