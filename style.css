@@ -7,7 +7,7 @@ body, html {
 
 .hero-image {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Bilder/Hero%20image.jpg"); 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/mirah/Downloads/Kjolar1.webp"); 
   height: 75%;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,14 +24,15 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-family: 'Oranienbaum', serif;
 }
 
 head {
     top: 100px;
 }
 
-#Rosa {
-    background-color: #FFCEC9;
+#Grey {
+    background-color: #d4c8c6;
 }
 
 div.Mirasfooter {
@@ -56,101 +57,6 @@ div.Video{
     background-color: white;
 }
 
-#Title {
-    text-shadow: 5px;
-}
-
-img {
-
-}
-
-#Picture1 {
-    color: white;
-    display: block;
-    background-color: black;
-    padding-left: 30px;
-}
-
-.Picture1:hover {
-    background-image:
-}
-
-#Picture2 {
-    color: white;
-    display: block;
-    background-color: black;
-    padding-left: 30px;  
-}
-
-
-#Picture3 {
-    color: white;
-    display: block;
-    background-color: black;
-    padding-left:30px;
-}
-
-#Picture4 {
-    color: white;
-    display: block;
-    background-color: black;
-    padding-left:30px;    
-}
-
-
-
-#Picture5 {
-    display: block;
-    color: white;
-    background-color: black;
-    padding-left: 30px;        
-}
-
-#Picture6 {
-    display: block;
-    color: white;
-    background-color: black;
-    padding-left: 30px;        
-}
-
-#Picture7 {
-    display: block;
-    color: white;
-    background-color: black;
-    padding-left: 30px;        
-}
-
-#Picture8 {
-    display: block;
-    color: white;
-    background-color: black;
-    padding-left: 30px;        
-}
-
-#Picture9 {
-    display: block;
-    color: white;
-    background-color: black;
-    padding-left: 30px;            
-}
-
-#Picture10 {
-    display: block;
-    color: white;
-    background-color: black;
-    padding-left: 30px;  
-    padding-bottom: 30px;
-}
-   
-#Pictures {
-    float: left;
-    object-fit: cover;
-    flex-wrap: wrap;
-    width: 100%;
-    display: flex;
-    padding-top: 60px;
-    background-color: black;
-}
 
 .Familj {
     color: white;
@@ -188,13 +94,13 @@ a.Top {
     border-radius: 15px;
     display: inline-block;
     color: black;
-    background-color: white;
+    background-color: rgb(177, 168, 168);
     text-align: center;
     padding: 20px;
     margin-left: 10px;
     text-decoration: none;
     font-size: 24px;
-
+    font-family:'Oranienbaum', serif;
 }
 
 #Color2 {
@@ -211,8 +117,8 @@ Video {
 }
 
 .footer {
-    color: white;
-    background-color: black;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
     vertical-align: bottom;
     align-content: center;
     font-family: monospace;
@@ -221,6 +127,7 @@ Video {
 body {
     font-family: 'Oranienbaum', serif;
     display: block;
+    text-align: left;
 }
 
 nav {
@@ -229,7 +136,7 @@ nav {
   outline-color: white;
   display: flex;
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   position: fixed; 
   justify-content: flex-start;
   top: 8px;
@@ -240,9 +147,9 @@ nav {
 
 nav a {
     outline-width: thick;
-    outline-color: white;
+    outline-color: darkgrey;
     display: inline-block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
     text-decoration: none;
@@ -262,8 +169,8 @@ h1.Familj {
 }
 
 .Title {
-    text-shadow: 4px 4px black;
     font-size: 60px;
+    font-family:'Oranienbaum', serif;
 }
 
 
