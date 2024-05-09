@@ -33,7 +33,6 @@ head {
 #Grey {
     background-color: #d4c8c6;
     text-align: left;
-    width:50%;
     font-size: 30px;
 }
 
@@ -157,3 +156,7 @@ h3 {
     left: 50%;
     text-align: center;
 }
+
+td.tabell { 
+    width: 50%;
+ }
